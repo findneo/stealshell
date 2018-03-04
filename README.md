@@ -11,6 +11,7 @@ http://127.0.0.1/xiao.php?pass=echo(%22pwd:pass%22);&findneo=echo(%22pwd:findneo
 ```
 
 用法：
+
 ```python
 Usage: stealshell.py [options]
 
@@ -25,6 +26,10 @@ Options:
 
 
 ```
+
+依赖库：
+python2.7: requests,sys,getopt
+
 效果如图：
 
 ![stealshell.png](stealshell.png)
