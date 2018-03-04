@@ -10,6 +10,21 @@ http://127.0.0.1/xiao.php?pass=echo(%22pwd:pass%22);
 http://127.0.0.1/xiao.php?pass=echo(%22pwd:pass%22);&findneo=echo(%22pwd:findneo%22);
 ```
 
+用法：
+```python
+Usage: stealshell.py [options]
+
+Options:
+        -h, --help                      display this message
+        -u URL, --url=URL               Target URL;This option must be provided to define the target
+                                                (e.g. "http://127.0.0.1/xiao.php")
+        -m METHOD                       request method (support GET/POST,GET is default )
+        -d DICT                         the filename of candidate passwords (e.g. "shell_pass_dic.txt")
+        -n NUM                          the number of passwords that will be submitted in each request
+                                                 (219 is default)
+
+
+```
 效果如图：
 
 ![stealshell.png](stealshell.png)
